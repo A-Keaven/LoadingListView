@@ -1,0 +1,123 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (javaClasses.cpp:136), pid=8312, tid=7488
+#  fatal error: Invalid layout of preloaded class
+#
+# JRE version:  (7.0_79-b15) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (24.79-b02 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000000026e0800):  JavaThread "Unknown thread" [_thread_in_vm, id=7488, stack(0x0000000002280000,0x0000000002380000)]
+
+Stack: [0x0000000002280000,0x0000000002380000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x00000000026e0800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=7488, stack(0x0000000002280000,0x0000000002380000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.010 loading class 0x0000000002724d10 done
+Event: 0.010 loading class 0x0000000002724710 done
+Event: 0.010 loading class 0x00000000027246f0
+Event: 0.010 loading class 0x000000000272c860
+Event: 0.010 loading class 0x000000000272c860 done
+Event: 0.010 loading class 0x000000000272c890
+Event: 0.010 loading class 0x000000000272c890 done
+Event: 0.010 loading class 0x000000000272c8c0
+Event: 0.010 loading class 0x000000000272c8c0 done
+Event: 0.010 loading class 0x00000000027246f0 done
+
+
+Dynamic libraries:
+0x00007ff7e6350000 - 0x00007ff7e6383000 	C:\Program Files\Java\jre7\bin\javaw.exe
+0x00007ffb828e0000 - 0x00007ffb82a8c000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007ffb82700000 - 0x00007ffb8283a000 	C:\WINDOWS\system32\KERNEL32.DLL
+0x00007ffb7fed0000 - 0x00007ffb7ffe0000 	C:\WINDOWS\system32\KERNELBASE.dll
+0x00007ffb7e740000 - 0x00007ffb7e7c8000 	C:\WINDOWS\system32\apphelp.dll
+0x00007ffb6d990000 - 0x00007ffb6d9df000 	C:\WINDOWS\AppPatch\AppPatch64\AcGenral.DLL
+0x00007ffb822f0000 - 0x00007ffb82397000 	C:\WINDOWS\system32\msvcrt.dll
+0x00007ffb7f960000 - 0x00007ffb7f98b000 	C:\WINDOWS\SYSTEM32\SspiCli.dll
+0x00007ffb81ea0000 - 0x00007ffb81ef1000 	C:\WINDOWS\system32\SHLWAPI.dll
+0x00007ffb82520000 - 0x00007ffb82691000 	C:\WINDOWS\system32\USER32.dll
+0x00007ffb823a0000 - 0x00007ffb82518000 	C:\WINDOWS\system32\ole32.dll
+0x00007ffb80350000 - 0x00007ffb81868000 	C:\WINDOWS\system32\SHELL32.dll
+0x00007ffb7f110000 - 0x00007ffb7f12f000 	C:\WINDOWS\SYSTEM32\USERENV.dll
+0x00007ffb80030000 - 0x00007ffb800d5000 	C:\WINDOWS\system32\ADVAPI32.dll
+0x00007ffb74bc0000 - 0x00007ffb74bdb000 	C:\WINDOWS\SYSTEM32\MPR.dll
+0x00007ffb80140000 - 0x00007ffb80277000 	C:\WINDOWS\system32\RPCRT4.dll
+0x00007ffb81e40000 - 0x00007ffb81e99000 	C:\WINDOWS\SYSTEM32\sechost.dll
+0x00007ffb81c60000 - 0x00007ffb81e36000 	C:\WINDOWS\SYSTEM32\combase.dll
+0x00007ffb81f60000 - 0x00007ffb820a4000 	C:\WINDOWS\system32\GDI32.dll
+0x00007ffb7fb20000 - 0x00007ffb7fb34000 	C:\WINDOWS\SYSTEM32\profapi.dll
+0x00007ffb7dfb0000 - 0x00007ffb7e04f000 	C:\WINDOWS\SYSTEM32\SHCORE.dll
+0x00007ffb80100000 - 0x00007ffb80134000 	C:\WINDOWS\system32\IMM32.DLL
+0x00007ffb81870000 - 0x00007ffb819c1000 	C:\WINDOWS\system32\MSCTF.dll
+0x00007ffb7d720000 - 0x00007ffb7d99b000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9600.17784_none_624760d1ecb7236e\COMCTL32.dll
+0x0000000050cb0000 - 0x0000000050d82000 	C:\Program Files\Java\jre7\bin\msvcr100.dll
+0x00000000504d0000 - 0x0000000050ca5000 	C:\Program Files\Java\jre7\bin\server\jvm.dll
+0x00007ffb74820000 - 0x00007ffb74829000 	C:\WINDOWS\SYSTEM32\WSOCK32.dll
+0x00007ffb74b60000 - 0x00007ffb74b7f000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007ffb800f0000 - 0x00007ffb800f7000 	C:\WINDOWS\system32\PSAPI.DLL
+0x00007ffb81f00000 - 0x00007ffb81f58000 	C:\WINDOWS\system32\WS2_32.dll
+0x00007ffb74b30000 - 0x00007ffb74b5a000 	C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+0x00007ffb820c0000 - 0x00007ffb820c9000 	C:\WINDOWS\system32\NSI.dll
+0x00007ffb7ffe0000 - 0x00007ffb8002a000 	C:\WINDOWS\SYSTEM32\cfgmgr32.dll
+0x00007ffb7e990000 - 0x00007ffb7e9b6000 	C:\WINDOWS\SYSTEM32\DEVOBJ.dll
+0x00000000504c0000 - 0x00000000504cf000 	C:\Program Files\Java\jre7\bin\verify.dll
+0x0000000050490000 - 0x00000000504b8000 	C:\Program Files\Java\jre7\bin\java.dll
+0x0000000050470000 - 0x0000000050485000 	C:\Program Files\Java\jre7\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=UTF-8 -Xbootclasspath:D:\mysoft\android-sdk_r24.0.2-windows\android-sdk-windows\platforms\android-15\android.jar 
+java_command: com.example.loadinglistview.aa
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk1.7.0_79
+CLASSPATH=.;C:\Program Files\Java\jdk1.7.0_79\lib;C:\Program Files\Java\jdk1.7.0_79\lib\tools.jar
+PATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Java\jdk1.7.0_79\jre\bin;F:\Program Files\MySQL\MySQL Utilities 1.3.4\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64
+USERNAME=Keaven
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 8.1 , 64 bit Build 9600 
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 42 stepping 7, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, aes, ht, tsc, tscinvbit
+
+Memory: 4k page, physical 8294672k(3398608k free), swap 10260752k(3338504k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (24.79-b02) for windows-amd64 JRE (1.7.0_79-b15), built on Apr 10 2015 12:36:16 by "java_re" with unknown MS VC++:1600
+
+time: Sat May 23 20:49:46 2015
+elapsed time: 0 seconds
+
